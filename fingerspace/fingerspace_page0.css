@@ -6,7 +6,7 @@ body{
     background-color: #c6ccc3;
 }
 .main-content {
-    padding-bottom: 50px; /* 为分页导航留出空间 */
+    padding-bottom: 60px; /* 为分页导航留出空间 */
 }
 .center-container {
     display: flex;
