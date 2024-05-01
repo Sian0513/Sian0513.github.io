@@ -37,7 +37,7 @@ ul.pagination{
     bottom: 10px; /* 定位在離頁面底部10px的地方 */
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 
     display: flex;
     justify-content: center; /*對齊主軸線中央 */
@@ -50,7 +50,7 @@ ul.pagination li{
 }
 
 ul.pagination li a{
-    width: 100px;
+    width: 90px;
     margin: 5px 10px;
     padding: 10px 10px;
 
@@ -100,7 +100,7 @@ ul.pagination li a.active{
         padding: 0;
     
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center; /*對齊主軸線中央 */
         align-items: center; /*對齊交錯軸線中央 */
         text-align: center; /* 文字對其區塊內中央 */
@@ -110,8 +110,8 @@ ul.pagination li a.active{
     }
     ul.pagination li a{
         text-decoration: none;
-        width: 100px;
-        margin: 5px 10px;
+        width: 90px;
+        margin: 5px 5px;
         padding: 10px 10px;
         border-radius: 100px;
         float: left;
