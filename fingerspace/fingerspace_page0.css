@@ -1,0 +1,128 @@
+body{
+    /* 背景 */
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: #c6ccc3;
+}
+.main-content {
+    padding-bottom: 50px; /* 为分页导航留出空间 */
+}
+.center-container {
+    display: flex;
+    justify-content: center;  /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+    background-color: #c6ccc3; /* Add a background color for visibility */
+}
+
+.fingerspace3 {
+    /* You can adjust the size of the image as needed */
+    max-width: 100%;
+    height: auto;
+}
+
+.flowerstep{
+    margin: 10px auto;  /* 图像水平居中，并在四周留有边距 */
+    max-width: 95%;  /* 最大宽度为页面的80% */
+    max-height: 90vh;  /* 最大高度为视口高度的80% */
+}
+
+.ribbon{
+    max-width: 100%;
+    height: auto;
+}
+
+ul.pagination{
+    position: fixed; 
+    bottom: 10px; /* 定位在離頁面底部10px的地方 */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center; /*對齊主軸線中央 */
+    align-items: center; /*對齊交錯軸線中央 */
+    text-align: center; /* 文字對齊區塊內中央 */
+}
+
+ul.pagination li{
+    display: inline;
+}
+
+ul.pagination li a{
+    width: 100px;
+    margin: 5px 10px;
+    padding: 10px 10px;
+
+    float: left;
+
+    background-color: white;
+    border-radius: 100px;
+
+    font-size: larger;
+    font-weight: bold;
+    color: #656d5e;
+    text-decoration: none;
+}
+
+ul.pagination li a.active{
+    background-color: #656d5e;
+    color: white;
+    border-radius: 100px;
+}
+
+
+@media (max-width:500px){
+    /* 手機-螢幕寬度小於 500px, 套用這個區塊的 CSS */
+    .fingerspace3 {
+        /* You can adjust the size of the image as needed */
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .flowerstep{
+        margin: 10px auto;  /* 图像水平居中，并在四周留有边距 */
+        max-width: 95%;  /* 最大宽度为页面的80% */
+        max-height: 90vh;  /* 最大高度为视口高度的80% */
+    }
+    
+    .ribbon{
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* 手機版目錄 */
+    ul.pagination{
+        position: fixed; /* 定位在頁面底部 */
+        bottom: 10px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /*對齊主軸線中央 */
+        align-items: center; /*對齊交錯軸線中央 */
+        text-align: center; /* 文字對其區塊內中央 */
+    }
+    ul.pagination li{
+        display: inline;
+    }
+    ul.pagination li a{
+        text-decoration: none;
+        width: 100px;
+        margin: 5px 10px;
+        padding: 10px 10px;
+        border-radius: 100px;
+        float: left;
+
+        background-color: white;    
+        font-size: larger;
+        font-weight: bold;
+        color: #656d5e;
+    }
+    ul.pagination li a.active{  
+        background-color: #656d5e;
+        color: white;
+    }
+}
