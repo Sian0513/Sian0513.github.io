@@ -117,7 +117,7 @@ ul.pagination li a.active{
         float: left;
 
         background-color: white;    
-        font-size: larger;
+        font-size: medium;
         font-weight: bold;
         color: #656d5e;
     }
