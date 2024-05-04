@@ -31,6 +31,32 @@ body{
     max-width: 100%;
     height: auto;
 }
+ul.feedback{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center; /*對齊主軸線中央 */
+    align-items: center; /*對齊交錯軸線中央 */
+    text-align: center; /* 文字對齊區塊內中央 */
+}
+
+ul.feedback a{
+    width: 90px;
+    margin: 5px 10px;
+    padding: 10px 10px;
+
+    float: left;
+
+    background-color: white;
+    border-radius: 100px;
+
+    font-size: large;
+    font-weight: bold;
+    color: #656d5e;
+    text-decoration: none;
+}
 
 ul.pagination{
     position: fixed; 
