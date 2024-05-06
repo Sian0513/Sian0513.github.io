@@ -22,14 +22,15 @@ body{
 }
 
 .flowerstep{
-    margin: 10px auto;  /* 图像水平居中，并在四周留有边距 */
-    max-width: 95%;  /* 最大宽度为页面的80% */
-    max-height: 90vh;  /* 最大高度为视口高度的80% */
+    margin: 10px auto;
+    max-width: 95%;
+    max-height: 90vh;
 }
 
 .ribbon{
-    max-width: 100%;
-    height: auto;
+    margin: 10px auto;
+    max-width: 95%;
+    max-height: 90vh;
 }
 ul.feedback{
     width: 100%;
