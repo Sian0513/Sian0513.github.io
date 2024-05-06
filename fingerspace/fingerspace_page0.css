@@ -114,9 +114,9 @@ ul.pagination li a.active{
     }
     
     .ribbon{
-    margin: 10px auto;
-    max-width: 95%;
-    max-height: 90vh;
+        margin: 10px auto;
+        max-width: 95%;
+        max-height: 90vh;
     }
 
     /* 手機版目錄 */
