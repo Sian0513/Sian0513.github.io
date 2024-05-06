@@ -29,7 +29,7 @@ body{
 
 .ribbon{
     margin: 10px auto;
-    max-width: 85%;
+    max-width: 95%;
     max-height: 90vh;
 }
 ul.feedback{
@@ -115,7 +115,7 @@ ul.pagination li a.active{
     
     .ribbon{
         margin: 10px auto;
-        max-width: 85%;
+        max-width: 95%;
         max-height: 90vh;
     }
 
