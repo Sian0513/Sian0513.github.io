@@ -4,7 +4,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center; /* 垂直對齊 */
-    background-color: #bde4d9;
+    background-color: #84ad9d;
 }
 .title{
     width: 1000px;
