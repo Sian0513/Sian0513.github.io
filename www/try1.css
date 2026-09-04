@@ -1,6 +1,6 @@
 body {
     /* 1. 指定您的圖片路徑 */
-    background-image: url('dinotang.jpg');
+    background-image: url('background.jpg');
 
     /* 2. 讓圖片自動縮放，完美充滿整個螢幕且不變形 */
     background-size: cover;
