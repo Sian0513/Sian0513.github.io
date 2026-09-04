@@ -5,7 +5,6 @@ body{
     justify-content: center;
     align-items: center; /* 垂直對齊 */
     background-color: #84ad9d;
-    font-family: "PMingLiU", "新細明體", serif;
 }
 .title{
     width: 1000px;
@@ -28,4 +27,5 @@ body{
     color: #ac8014;
     font-size: 20px;
     font-weight: bold;
+    font-family: "PMingLiU", "新細明體", serif;
 }
