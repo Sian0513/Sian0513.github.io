@@ -24,7 +24,7 @@ body {
                 margin-bottom: 50%;
                 display:flex;
                 justify-content: center;
-                align-items: center; /* 垂直對齊
+                align-items: center;         /* 垂直對齊
                 background-color: #84ad9d;
             } */
 .title{
