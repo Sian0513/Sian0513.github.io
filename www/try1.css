@@ -1,11 +1,32 @@
-body{
-    margin-top: 20%;
-    margin-bottom: 50%;
-    display:flex;
-    justify-content: center;
-    align-items: center; /* 垂直對齊 */
-    background-color: #84ad9d;
+body {
+    /* 1. 指定您的圖片路徑 */
+    background-image: url('dinotang.jpg');
+
+    /* 2. 讓圖片自動縮放，完美充滿整個螢幕且不變形 */
+    background-size: cover;
+
+    /* 3. 讓圖片在螢幕正中央對齊 */
+    background-position: center;
+
+    /* 4. 防止螢幕太大時，圖片出現重複拼貼的狀況 */
+    background-repeat: no-repeat;
+
+    /* 5. 讓圖片跟著螢幕視窗固定，捲動時背景不會跟著移走（非必選，看個人喜好） */
+    background-attachment: fixed;
+
+    /* 6. 確保背景高度至少跟螢幕一樣高，並清除瀏覽器預設邊距 */
+    min-height: 100vh;
+    margin: 0;
 }
+
+            /* body{
+                margin-top: 20%;
+                margin-bottom: 50%;
+                display:flex;
+                justify-content: center;
+                align-items: center; /* 垂直對齊 */
+                background-color: #84ad9d;
+            } */
 .title{
     width: 1000px;
     padding: 50px;
