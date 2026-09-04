@@ -17,6 +17,11 @@ body {
     /* 6. 確保背景高度至少跟螢幕一樣高，並清除瀏覽器預設邊距 */
     min-height: 100vh;
     margin: 0;
+    
+    /* ✨ 新增以下三行：重新讓畫面上的文字框在螢幕正中央對齊 ✨ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
             /* body{
@@ -29,6 +34,8 @@ body {
             } */
 .title{
     width: 1000px;
+    /* ✨ 新增 max-width，確保在小螢幕（如筆電、平板）上文字框不會爆出去 */
+    max-width: 90%;
     padding: 50px;
     display:block;
     justify-content: center;
